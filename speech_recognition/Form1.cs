@@ -17,6 +17,8 @@ using System.Net;
 using System.IO;
 using System.IO.Compression;
 
+
+
 namespace speech_recognition
 {
     public partial class Form1 : Form
@@ -25,6 +27,10 @@ namespace speech_recognition
         Reguest reg = new Reguest();
         WavToFlac wtf = new WavToFlac();
         GetTextFromRequest gtfr = new GetTextFromRequest();
+        QA qa = new QA();
+        SpeechSynthesizer synth = new SpeechSynthesizer();
+        RusEnVoice rev = new RusEnVoice();
+
         public Form1()
         {
             InitializeComponent();
@@ -61,11 +67,17 @@ namespace speech_recognition
 
         private void button3_Click(object sender, EventArgs e)
         {
-            wtf.Wav_Flac();
+           wtf.Wav_Flac();
             label1.Text = "";
             listBox1.Items.Clear();
-            richTextBox1.AppendText("You: " + reg.GetResult(listBox1) + "\n");
+            string strreg = reg.GetResult(listBox1);
+            richTextBox1.AppendText("You: " + strreg + "\n");
+            string strans = String.Empty;
+            if (strreg != null)
+            strans = qa.create_answer(strreg);
+            richTextBox1.AppendText("Me: " + strans + "\n");
 
+            tts1(strans);
 
             button1.Enabled = true;
             button2.Enabled = false;
@@ -88,7 +100,12 @@ namespace speech_recognition
 
         private void button4_Click(object sender, EventArgs e)
         {
+            button4.Enabled = false;
             richTextBox1.AppendText("You: " + textBox1.Text.ToString() + "\n");
+            string answers = qa.create_answer( textBox1.Text.Trim().ToString());
+            richTextBox1.AppendText("Me: " + answers + "\n");
+
+          //  tts1(answers);
 
             button1.Enabled = false;
             button2.Enabled = false;
@@ -115,10 +132,46 @@ namespace speech_recognition
                 if (listBox1.SelectedItems.Count == 1)
                 {
                     richTextBox1.AppendText("You: " + listBox1.SelectedItem.ToString() + "\n");
+                    richTextBox1.AppendText("Me: " + qa.create_answer(listBox1.SelectedItem.ToString()) + "\n");
+                    string str = rev.rus_en_v(qa.create_answer(listBox1.SelectedItem.ToString())).ToString();
+                    tts(str);
                 }
                 else
                     MessageBox.Show("Choose one item.");
                 listBox1.Items.Clear();
+            }
+        }
+
+        private void tts(string str)
+        {
+            if (reg.HasConnection())
+            {
+                string str1 = " ";
+                for (int i = 0; i < str.Length; i += 70)
+                {
+                    if (str.Length - i < 70)
+                        str1 = str.Substring(i, str.Length - i);
+                    else
+                        str1 = str.Substring(i, 70);
+                    reg.text_speech(str1.ToString());
+                    System.Threading.Thread.Sleep(7500);
+                }
+            }
+        }
+        private void tts1(string str)
+        {
+            if (reg.HasConnection())
+            {
+                string str1 = " ";
+                for (int i = 0; i < str.Length; i += 150)
+                {
+                    if (str.Length - i < 150)
+                        str1 = str.Substring(i, str.Length - i);
+                    else
+                        str1 = str.Substring(i, 150);
+                    reg.text_speech(str1.ToString());
+                    System.Threading.Thread.Sleep(10500);
+                }
             }
         }
 

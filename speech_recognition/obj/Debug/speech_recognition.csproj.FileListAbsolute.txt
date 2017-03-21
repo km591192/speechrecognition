@@ -50,3 +50,26 @@ D:\onu\Diplom\speech_recognition\speech_recognition\obj\Debug\speech_recognition
 D:\onu\Diplom\speech_recognition\speech_recognition\obj\Debug\speech_recognition.Form1.resources
 D:\onu\Diplom\speech_recognition\speech_recognition\obj\Debug\speech_recognition.Properties.Resources.resources
 D:\onu\Diplom\speech_recognition\speech_recognition\obj\Debug\speech_recognition.csproj.GenerateResource.Cache
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\bin\Debug\speech_recognition.exe.config
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\obj\Debug\speech_recognition.exe
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\obj\Debug\speech_recognition.pdb
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\bin\Debug\speech_recognition.exe
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\bin\Debug\speech_recognition.pdb
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\bin\Debug\FlacBox.Portable.dll
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\bin\Debug\NAudio.dll
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\bin\Debug\Newtonsoft.Json.dll
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\bin\Debug\CUETools.CDImage.dll
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\bin\Debug\CUETools.AccurateRip.dll
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\bin\Debug\CUETools.CTDB.dll
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\bin\Debug\CUETools.Processor.dll
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\bin\Debug\taglib-sharp.dll
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\bin\Debug\CUETools.Parity.dll
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\bin\Debug\CUETools.Compression.dll
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\bin\Debug\Freedb.dll
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\bin\Debug\NAudio.xml
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\bin\Debug\Newtonsoft.Json.xml
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\bin\Debug\ru-RU\CUETools.Codecs.FLAKE.resources.dll
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\obj\Debug\speech_recognition.csprojResolveAssemblyReference.cache
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\obj\Debug\speech_recognition.Form1.resources
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\obj\Debug\speech_recognition.Properties.Resources.resources
+D:\onu\Diplom\speech_recognition + QA\speech_recognition\obj\Debug\speech_recognition.csproj.GenerateResource.Cache

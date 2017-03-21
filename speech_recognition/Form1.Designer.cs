@@ -42,8 +42,8 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.button5 = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -119,16 +119,18 @@
             // voiceToolStripMenuItem
             // 
             this.voiceToolStripMenuItem.Name = "voiceToolStripMenuItem";
-            this.voiceToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.voiceToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.voiceToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            | System.Windows.Forms.Keys.V)));
+            this.voiceToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.voiceToolStripMenuItem.Text = "Voice";
             this.voiceToolStripMenuItem.Click += new System.EventHandler(this.voiceToolStripMenuItem_Click);
             // 
             // writeToolStripMenuItem
             // 
             this.writeToolStripMenuItem.Name = "writeToolStripMenuItem";
-            this.writeToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.W)));
-            this.writeToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.writeToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            | System.Windows.Forms.Keys.W)));
+            this.writeToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.writeToolStripMenuItem.Text = "Write";
             this.writeToolStripMenuItem.Click += new System.EventHandler(this.writeToolStripMenuItem_Click);
             // 
@@ -182,6 +184,14 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Another";
             // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(3, 3);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(257, 212);
+            this.listBox1.TabIndex = 2;
+            // 
             // button5
             // 
             this.button5.Enabled = false;
@@ -192,14 +202,6 @@
             this.button5.Text = "Choose";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(3, 3);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(257, 212);
-            this.listBox1.TabIndex = 2;
             // 
             // Form1
             // 

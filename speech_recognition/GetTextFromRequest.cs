@@ -30,13 +30,9 @@ namespace speech_recognition
             {
                 for (int i = 8; i <= wordslength - 4; i += 4)
                 {
-                   // MessageBox.Show(words[i]);
                     newwords += words[i] + "\n";
                 }
-                 
             }
-           // MessageBox.Show(news);
-           // MessageBox.Show(newwords);
            return newwords;
         }
 
@@ -48,7 +44,6 @@ namespace speech_recognition
                foreach (string s in words)
                    lb.Items.Add(s);
            }
-
       }
 
 

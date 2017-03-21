@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="speech_recognition.Form1" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCACAEBACAAABACAAKAAAQCIMQ4ACAGEHAcAEIBBAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="speech_recognition.GetTextFromRequest" Collapsed="true">
+    <Position X="2.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAIAIAAAAAIAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>GetTextFromRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="speech_recognition.NBCClass">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAgQAAAAACAAEACAAAAAAEAAEAQAAAEBAQBA=</HashCode>
+      <FileName>NBCClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="speech_recognition.Program" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="speech_recognition.QA">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAQAEAABAgAIAgACBIAAQAAAAAAEAAAYgAAAAIQAI=</HashCode>
+      <FileName>QA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="speech_recognition.Reguest">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAEAAAAAAAAAAAAgAAAAAEAAAACAAGA=</HashCode>
+      <FileName>Reguest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="speech_recognition.RusEnVoice" Collapsed="true">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>RusEnVoice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="speech_recognition.Speechtofile" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAAAAAAAAAAAAgAAAAAAAAAAEgAAAAAQgAggAAAAA=</HashCode>
+      <FileName>Speechtofile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="speech_recognition.SS_LDFS" Collapsed="true">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SS_LDFS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="speech_recognition.WavToFlac">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WavToFlac.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="speech_recognition.WordStemming" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAAAAAhAACAABAAAAAAAgAAAAAAmAQAkAEAAQAAA=</HashCode>
+      <FileName>WordStemming.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="speech_recognition.Properties.Resources" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="speech_recognition.Properties.Settings" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
